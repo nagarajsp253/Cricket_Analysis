@@ -63,13 +63,16 @@ Step 8: Building visuals and dashboard
     - Combined Performance: Cards are added to show the combined performance when any of the  player is selected from table.
 <img width="716" alt="Main_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/7cea30c2-5208-4b51-978c-a9da778c92b6">
 
+
   - Anchors/Middle Order:
     - Gives the details of Anchors/Middle Order batters in table format who are fulfilling the selection parameters.
 <img width="711" alt="Anchors_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/15741d20-4546-4da8-bf78-c01339569922">
 
+
   - Finisher/Lower Order:
     - Gives the details of Finishers/Lower Order batters in table format who are fulfilling the selection parameters.
 <img width="710" alt="Finishers_Dahboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/66b9c6e3-1751-4382-bf9c-237ebfac7016">
+
 
   - All Rounders/Lower Middle Order:
     - Gives the details of All Rounders/Lower Middle Orders in table format who are fulfilling the selection parameters.
@@ -77,15 +80,18 @@ Step 8: Building visuals and dashboard
     - Scatter chart: to show the Bowling_Strike_Rate Vs Economy
 <img width="711" alt="Allrounders_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/0eb26e5e-b977-4287-9d4c-1193da80f688">
 
+
   - Specialist Fast Bowlers / Tail End:
     - Gives the details of Specialist Fast Bowlers / Tail End bowlers in table format who are fulfilling the selection parameters.
     - Line chart: to show the Bowling_Average, Dot Ball Percentage, Bowling_Strike_Rate and Economy.
     - Scatter chart: to show the Bowling_Strike_Rate Vs Economy
 <img width="712" alt="Bowlers_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/601f3fc8-4ca6-42a8-8cac-37fb838b6335">
 
+
   - Final 11:
     - Based on the details shown we can select the final 11 players and see their every details including the Team Performance.
 <img width="710" alt="Final11_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/04539251-8614-4ff3-8cac-bc476dfc4847">
+
 
   - Common Slicres: Slicer is added with the values qualifier and super12
 

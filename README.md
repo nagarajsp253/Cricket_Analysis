@@ -4,8 +4,6 @@
 
 Creating a dashboard that will help us to select best 11 cricket players as per the different criteria given using 2022 t20 worlcup data as a source from espncricinfo website.
 
-Using this dashboard anyone can findout who will be the best suit to play in the final 11.
-
 ## Selection Parameters
 <img width="406" alt="Openers" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/e99bc8c9-b0c1-4d4b-ac5e-81873e3b967f">
 <img width="406" alt="Anchors" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/48f0e621-75e9-4996-a67f-982330836382">

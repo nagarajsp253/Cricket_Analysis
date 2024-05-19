@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Creating a dashboard that will help us to select best 11 cricket players as per the different criteria given using 2022 t20 worlcup data as a source from espncricinfo website.
+Creating a dashboard that will help us to select best 11 cricket players as per the different criteria given using 2022 t20 worldcup data as a source from espncricinfo website.
 
 ## Selection Parameters
 <img width="406" alt="Openers" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/e99bc8c9-b0c1-4d4b-ac5e-81873e3b967f">

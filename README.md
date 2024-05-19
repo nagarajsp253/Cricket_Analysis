@@ -50,7 +50,8 @@ Creating a dashboard that will help us to select best 11 cricket players as per 
   - Dimension tables: Player_Info, Match_Summary
 
 - Step 7: Creating Measures and Calculated columns
-<img width="890" alt="Measures" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/fdb8796b-3347-4213-8634-5ebb3ac8f28e">
+  - <img width="905" alt="Measures" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/ff68fd32-2801-4b67-bce7-be98246b1dfd">
+  - <img width="901" alt="Calculated_Columns" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/f3a6bdca-7168-4f74-8af4-ff55beb1d328">
 
 - Step 8: Building visuals and dashboard
   - Main Dashboard:
@@ -59,7 +60,7 @@ Creating a dashboard that will help us to select best 11 cricket players as per 
     - Scatter chart: to show the Strike_Rate Vs Batting_Average
     - Individual Performance: Hovering on player name shows their performance in each match they played.
     - Combined Performance: Cards are added to show the combined performance when any of the  player is selected from table.
-<img width="716" alt="Main_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/7cea30c2-5208-4b51-978c-a9da778c92b6">
+  - <img width="716" alt="Main_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/7cea30c2-5208-4b51-978c-a9da778c92b6">
 
   - Anchors/Middle Order:
     - Gives the details of Anchors/Middle Order batters in table format who are fulfilling the selection parameters.

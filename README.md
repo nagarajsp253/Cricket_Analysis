@@ -29,25 +29,25 @@ Creating a dashboard that will help us to select best 11 cricket players as per 
     - Removing special characters
     - Linking columns between files
 
-- Step 3: Loading all four CSV data files into Power BI Desktop usinf files option
+- Step 3: Loading all four CSV data files into Power BI Desktop usinf files option.
 
 - Step 4: Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 
 - Step 5: Data transformation in powerquery
   - Given names to all the four files.
   - Made first row as header.
-  - Removed duplicate record from Player_Info table
-  - Extracted (c)/(wk) from player name column
-  - Added a "stage" column in Match_Summary table: if match_date is before or equal to 22 October then value will be qualifier else super 12
-  - Split the overs column to [overs.2] based on (.) delimiter to create new column "balls"
+  - Removed duplicate record from Player_Info table.
+  - Extracted (c)/(wk) from player name column.
+  - Added a "stage" column in Match_Summary table: if match_date is before or equal to 22 October then value will be qualifier else super 12.
+  - Split the overs column to [overs.2] based on (.) delimiter to create new column "balls".
   - Added new custom column "balls": [overs.1] * 6 + [overs.2]
   - In "out/not_out" column replaced out with "1" and not_out with "0" then changed column name to "out".
   - Made some column name changes in Batting _Summary and Bowling_Summary tables.
 
 - Step 6: Data modelling
-  - Correcsponding columns will be matched between fact and dimension tables
-  - Fact tables: Batting_Summary, Bowling_Summary
-  - Dimension tables: Player_Info, Match_Summary
+  - Corresponding columns will be matched between fact and dimension tables.
+  - Fact tables: Batting_Summary, Bowling_Summary.
+  - Dimension tables: Player_Info, Match_Summary.
 
 - Step 7: Creating Measures and Calculated columns
   - <img width="905" alt="Measures" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/ff68fd32-2801-4b67-bce7-be98246b1dfd">
@@ -73,20 +73,20 @@ Creating a dashboard that will help us to select best 11 cricket players as per 
   - All Rounders/Lower Middle Order:
     - Gives the details of All Rounders/Lower Middle Orders in table format who are fulfilling the selection parameters.
     - Line chart: to show the Batting_Average, Strike_Rate, Bowling_Strike_Rate and Economy.
-    - Scatter chart: to show the Bowling_Strike_Rate Vs Economy
+    - Scatter chart: to show the Bowling_Strike_Rate Vs Economy.
     - <img width="711" alt="Allrounders_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/0eb26e5e-b977-4287-9d4c-1193da80f688">
 
   - Specialist Fast Bowlers / Tail End:
     - Gives the details of Specialist Fast Bowlers / Tail End bowlers in table format who are fulfilling the selection parameters.
     - Line chart: to show the Bowling_Average, Dot Ball Percentage, Bowling_Strike_Rate and Economy.
-    - Scatter chart: to show the Bowling_Strike_Rate Vs Economy
+    - Scatter chart: to show the Bowling_Strike_Rate Vs Economy.
     - <img width="712" alt="Bowlers_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/601f3fc8-4ca6-42a8-8cac-37fb838b6335">
 
   - Final 11:
     - Based on the details shown we can select the final 11 players and see their every details including the Team Performance.
     - <img width="710" alt="Final11_Dashboard" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/04539251-8614-4ff3-8cac-bc476dfc4847">
 
-  - Common Slicres: Slicer is added with the values qualifier and super12
+  - Common Slicers: Slicer is added with the values qualifier and super12.
 
   - Navigation Options In Each Page: Final 11, Power Hitters, Anchors, Finishers, All Rounders, Specialit Fast Bowlers.
            

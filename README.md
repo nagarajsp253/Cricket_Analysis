@@ -29,9 +29,9 @@ Creating a dashboard that will help us to select best 11 cricket players as per 
     - Removing special characters
     - Linking columns between files
 
-- Step 3: - Loading all four CSV data files into Power BI Desktop usinf files option
+- Step 3: Loading all four CSV data files into Power BI Desktop usinf files option
 
-- Step 4 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+- Step 4: Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 
 - Step 5: Data transformation in powerquery
   - Given names to all the four files.
@@ -44,15 +44,15 @@ Creating a dashboard that will help us to select best 11 cricket players as per 
   - In "out/not_out" column replaced out with "1" and not_out with "0" then changed column name to "out".
   - Made some column name changes in Batting _Summary and Bowling_Summary tables.
 
-Step 6: Data modelling
+- Step 6: Data modelling
   - Correcsponding columns will be matched between fact and dimension tables
   - Fact tables: Batting_Summary, Bowling_Summary
   - Dimension tables: Player_Info, Match_Summary
 
-Step 7: Creating Measures and Calculated columns
+- Step 7: Creating Measures and Calculated columns
 <img width="890" alt="Measures" src="https://github.com/nagarajsp253/Cricket_Analysis/assets/52107536/fdb8796b-3347-4213-8634-5ebb3ac8f28e">
 
-Step 8: Building visuals and dashboard
+- Step 8: Building visuals and dashboard
   - Main Dashboard:
     - Gives the details of Power hitter/Opener batters in table format who are fulfilling the selection parameters.
     - Line chart: to show the Batting_Average, Strike_Rate, Average_Balls_Faced and Boundary percentage.
